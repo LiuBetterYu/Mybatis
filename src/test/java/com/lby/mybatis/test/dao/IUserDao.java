@@ -1,11 +1,12 @@
 package com.lby.mybatis.test.dao;
 
+import com.lby.mybatis.test.po.User;
+
 /**
  * @author lby
  */
 public interface IUserDao {
 
-    String queryUserName(String uId);
+    User queryUserInfoById(Long uId);
 
-    Integer queryUserAge(String uId);
 }
